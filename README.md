@@ -20,6 +20,6 @@ E. Andreassen, B. S. Lazarov (2014), Topology optimization using PETSc:
 An easy-to-use, fully parallel, open source topology optimization framework, 
 Structural and Multidisciplinary Optimization, DOI 10.1007/s00158-014-1157-0)
 
-Modifications made by Eduardo Fernandez & Kaike Yang.
+Modifications made by Eduardo Fernandez & Kaike Yang, at the University of Liege, Belgium.
 
 NOTE: The code works with PETSc version 3.7.4
