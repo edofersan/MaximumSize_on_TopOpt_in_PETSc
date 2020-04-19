@@ -25,11 +25,15 @@ Modifications made by Eduardo Fernandez & Kaike Yang, University of Liege, Belgi
  
 The following files were modified:
 
-- main(cc):  Continuation over the beta and penal parameters / Scaling the upper bound of the volume constraint / Export additional data (MPIIO output).
+- main(cc):  Continuation over the beta and penal parameters / Scaling the upper 
+             bound of the volume constraint / Export additional data (MPIIO output).
 			
-- TopOpt(cc/h): Projection parameters (beta, thresholds, minimum size) / Maximum size dimensions and parameters / Declaration and Initialization of arrays.
+- TopOpt(cc/h): Projection parameters (beta, thresholds, minimum size) / Maximum size 
+                dimensions and parameters / Declaration and Initialization of arrays.
 				
-- Filter(cc/h): Solid Passive elements / Change of the filter Matrix [H] / Numerical treatment of [H] w.r.t. the boundaries / Eroded, intermediate and dilated projections / Maximum size Constraint;
+- Filter(cc/h): Solid Passive elements / Change of the filter Matrix H / Numerical 
+                treatment on H wrt the boundaries / eroded, intermediate and dilated 
+		projections / Maximum size Constraint.
 
 - LinearElasticity(cc/h): Robust formulation (on eroded) / 3D-MBB boundary conditions;
 
