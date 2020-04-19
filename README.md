@@ -15,11 +15,34 @@ Imposing minimum and maximum member size, minimum cavity size, and minimum
 separation distance between solid members in topology optimization. 
 (arXiv preprint arXiv:2003.00263).
 
-This code is based on the version 2017 of the TopOpt_in_PETSc code -> (N. Aage, 
-E. Andreassen, B. S. Lazarov (2014), Topology optimization using PETSc: 
+This code is based on the version 2017 of the TopOpt_in_PETSc code. The
+original code can be found here: https://github.com/topopt/TopOpt_in_PETSc 
+(N. Aage, E. Andreassen, B. S. Lazarov (2014), Topology optimization using PETSc: 
 An easy-to-use, fully parallel, open source topology optimization framework, 
 Structural and Multidisciplinary Optimization, DOI 10.1007/s00158-014-1157-0)
 
-Modifications made by Eduardo Fernandez & Kaike Yang, at the University of Liege, Belgium.
+Modifications made by Eduardo Fernandez & Kaike Yang, University of Liege, Belgium.
+ 
+The following files were modified:
+
+- main(cc):       Continuation over the beta and penal parameters;
+			            Scaling the upper bound of the volume constraint;
+			            Export additional data (MPIIO output);
+			
+- TopOpt(cc/h):   Projection parameters (beta, thresholds, minimum size);
+				          Maximum size dimensions and parameters;
+				          Declaration and Initialization of arrays;
+				
+- Filter(cc/h):   Solid Passive elements;
+				          Change of the filter Matrix [H];
+				          Numerical treatment of [H] w.r.t. the boundaries;
+				          Eroded, intermediate and dilated projections;
+				          Maximum size Constraint;
+
+- LinearElasticity(cc/h):   Robust formulation (on eroded);		
+							              3D-MBB boundary conditions;
+
+- MPIIO(cc): 	    Export additional data.							
+
 
 NOTE: The code works with PETSc version 3.7.4
