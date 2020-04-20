@@ -28,8 +28,6 @@ original code can be found here: https://github.com/topopt/TopOpt_in_PETSc
 An easy-to-use, fully parallel, open source topology optimization framework, 
 Structural and Multidisciplinary Optimization, DOI 10.1007/s00158-014-1157-0)
 
-> **NOTE**: The code works with **PETSc version 3.7.4**
-
 ## Implementation
 
 Implementations made by Eduardo Fernandez & Kaike Yang, University of Liege, Belgium.
@@ -61,6 +59,8 @@ See requirements and instructions at https://github.com/topopt/TopOpt_in_PETSc
 - To compile, e.g: make topopt
 - To execute, e.g: mpiexec -np 6 ./topopt
 - Visualize using ParaView.
+
+> **NOTE**: The code works with **PETSc version 3.7.4**
 
 The default problem takes about 1 hour to be solved on a laptop. The default 
 solution looks like this:  
