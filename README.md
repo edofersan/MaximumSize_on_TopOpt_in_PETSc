@@ -20,7 +20,7 @@ Imposing minimum and maximum member size, minimum cavity size, and minimum
 separation distance between solid members in topology optimization. 
 (arXiv preprint arXiv:2003.00263).
 
-## The Source
+## The Base-Code
 
 This code is based on the version 2017 of the TopOpt_in_PETSc code. The
 original code can be found here: https://github.com/topopt/TopOpt_in_PETSc 
