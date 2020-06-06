@@ -17,8 +17,7 @@ The theoretical details are presented in the manuscript:
 
 E. Fernandez, K. Yang, S. Koppen, P. Alarcon, S. Bauduin, P. Duysinx (2020). 
 Imposing minimum and maximum member size, minimum cavity size, and minimum 
-separation distance between solid members in topology optimization. 
-(arXiv preprint arXiv:2003.00263).
+separation distance between solid members in topology optimization. Computer Methods in Applied Mechanics and Engineering, https://doi.org/10.1016/j.cma.2020.113157.
 
 ## The Base-Code
 
